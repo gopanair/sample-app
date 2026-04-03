@@ -12,7 +12,7 @@ async function getServerData() {
     uptime: Math.floor(uptime),
     memoryMB: Math.round(memUsage.rss / 1024 / 1024),
     pid: process.pid,
-    env: process.env.APP_MESSAGE || "Hello from Launchpad!",
+    env: process.env.APP_MESSAGE || "Hello from Launchpad!@@@@@@@",
   };
 }
 
